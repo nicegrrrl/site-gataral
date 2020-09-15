@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 1rem;
+}
+
+.navbar {
+  margin: 0;
+  padding: 5px 20px 5px 10px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #faf8f5;
+}
+
+ul {
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 900;
+  color: #a19c8f;
+}
+
+a:visited {
+  color: #a19c8f;
+}
+
+a:hover {
+  color: #e8dc8e;
+}
+
+h2 {
+  font-size: 5rem;
+  letter-spacing: 5px;
+  padding: 5px 0 2px 0;
+  margin: 50px 0 10px 0;
+}
+
+p {
+  line-height: 25px;
+}
+
+/**************
+* VÁLIDO PARA TODAS AS SEÇÕES
+**************/
+
+.conteudoTexto {
+  width: 40%;
+  margin: 1rem;
+}
+
+.conteudoImagem {
+  width: 60%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.dadosGato {
+  padding: 0 0 20px 0;
+}
+
+.dadosGato p {
+  color: #a19c8f;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  line-height: 0.8rem;
+}
+
+/**************
+* SEÇÃO "HOME"
+**************/
+
+#home {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(https://lh3.googleusercontent.com/pw/ACtC-3cHKwefFyR369OI2WsnDAI9wci9eBDHfo_U-OYWF4PxM2VoNRfqMJiRH9aI67Tjg8mv6I3RytXew4P0yAqynt1CWXEoeU7eIyOc47jSoNVLdjsfkP-l2n0lUWTabXBW5Oy7GoicCIzBQwUpzW7m4ZNREw=w1372-h914-no?authuser=0);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/**************
+* SEÇÃO "SOBRE"
+**************/
+
+#sobre {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.sobreConteudo {
+  display: flex;
+}
+
+.sobreImagem {
+  background-image: url(https://lh3.googleusercontent.com/QgF6tXZ5GZK9ENK1yGTuR5qR8P2n6u2AYa8Km4b_aX4Mh03R-qWsvKjtmkOFEj2EraOETeUq3Qp29N24DB5aZAu5e0msvcii9nBZvJZNhU_KYjozRrkNGF3TZ-JHBuKvBFZW8uh1dRy489-QYSKwcp-Fc-B8mOHQKzRuCanehk3JwoODTWt661ypBHLIhfGTiMOUFPvNHGPOtgzrZeegA_rqRMyDQd0fXHoxlHy5_CRqjf0MIj9EhIg9x1Ct7EE6Zjz096VaxreTMYujenqIA_-tBQl87zxeOTTozCK1_3zdcxkFLuWCjSr5PpmKmlX3CynAy0q890oOVX-4XTEs72pKwTZ7cozfHRXIzj1mpG-i8f7wC0npxdtui7OjP70zOqsNcMPDiSMm1bG2acqvLVves2hjIeFapUt5MU-mUHIaMcVdFXtWxwos6vyqosnyPumdNRQmJTD-dEhAzJj95QEW0PT_xm6Co063Tp7ORdjJjlpd2_7dSgYj3mAl2dLVMyQLPQr8ciTAT_XS-tos5ifVLw8vY8wqIQsSAvZemZ7bT_68TrrwibUmMGh1z0wkNQArcY0gGqiTnWNbIjKFxhB6ViuCWQcPxp3u_HV25M_WPn_zgaS52AFDxveGpVpD-ykdGeympnJ207X4sIRBJB2_ymNh6j7fWvuxaqeFCDJLkDMEdu3Tz5GRTLUqmA=w1372-h914-no?authuser=0);
+}
+
+/**************
+* SEÇÃO "MAMÁ"
+**************/
+
+#secaoMama {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.secaoMamaConteudo {
+  display: flex;
+}
+
+.secaoMamaImagem {
+  background-image: url(https://lh3.googleusercontent.com/xdxE2cx6kKZeJqn6P9n4NpgLWP4ZsuVvZeIiPFqxSl40dBs3FQYrINPWLgI1k54_BxrMKk2-iRU6kQ4Jh9FYEds_p19XRjk1iRQBmcpzU2o7g5SzxSTtCElyRL7BdoyKDnAGLloiWelQzZ76Pm2kyulKL08pK3QI9TNlswGaaLnAogdPh_dg-jS4JCY1FGVckRilOiZLDeCVSWERudWux3wpJ6e2W55xIFY28_BpoCmQLhKMHU2BDQLCNnKTwKfrF2nLc4cMC0XeKr1sG0nAQH5YJRSumAhrGMeq-9WpDqsb28LcttVrZIYJzE2kSXZ-yH6NBg_3jST103nux2toXZGVl5SRZMtz2-yUFOQiRolqAeoJCCoSygegXF6XcmYIcOsBSh4ceIDjBjPVjpjp8-KxpgVp_ogdi6I3n-2-QfclZovEXg1ZQpygwlN7TAOM9GrvhfLTVPzalgoJZP9U4XJXCQiLeywM1fgSof3J0S6Fyfx9oyWx6v3W98b38Jt4janYrN0iSxvaxJq3RnYv3jXAZT4lPFB9h3KwGhkbwXPjzRifKdwixdcrMfhIQNycV6ZiS5UjTYjETQkrZ09ZkcocF_P1uOQECAGEjjX9o9kXFeCBm3PSGwAtQq4OPdvLR_4X0gnWUB8Il7w5oz4H1MFCrFJVthnu2l2OuuGcEp0nj24mo6cRHZd-lHxBlg=w1372-h914-no?authuser=0);
+}
+
+.secaoMamaImagem:hover {
+  background-image: url(https://lh3.googleusercontent.com/xMd_y_uFmhVfb0qUt_akMPsgXMYSCNBMfPtKUjDA_1khGTGwspdFrkq-X11immly0RHxvi4jguGSBZc_KZj0kql5CwT-c4MhQTMv3hIav-bxz_D7dkA22-KK6sU1mxLnTbw-o15oUhcteBZKmOo9ISOHvQ2LM-pYB112jgroSR0wNVm2uk6P0XaRRwL53WwYB_hwVpIFLr_v10gmwckBf6AKu8_EM0dimkyKsc23b9uk7PKev2yXJVQDZPIArdqLBKWIHSXtnnJ9idQqzDF7gLr_SAwWTE2GtjG0cBmE6twYSv2-YdcHsmOEDGatc3MC6IcCYETsH743Ob0ICU4Ltc0IL1O1mze8lX42Hp7uh_VsdDvDmURJYr4l9pWp8UFDpduEmUw0-Fe_vDuPAZ24C8haVDhJAemFIWLZUctrbAXBV0skoBolOgRHXc7vtRfbKJK9anExr5qd6W79EnsIy3QezE3QIq4Jkx3JVn2uKwmGXgwjyZHadfrOKTpswcIGsuEb1CPlQqG7d3abyIwbcHA05HK90sGm2KPB0CAa8_KgMexVVsyWNR4F5RuCbhSHiyCYEdrGSqCfOIkEcHy_ulPLpqEJS_RZ8XzGFWl7LQ3HnWGgtWH6dINYMEdMq4WbY2ma_6qT36AjZAmuoaogM-q85TqPM6Alq6hiqUhKUDsknh-4S6G8c2XFBoe0hw=w1372-h914-no?authuser=0);
+}
+
+/**************
+* SEÇÃO "PAMPAM"
+**************/
+
+#secaoPampam {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.secaoPampamConteudo {
+  display: flex;
+}
+
+.secaoPampamImagem {
+  background-image: url(https://lh3.googleusercontent.com/9b-UVgqTYW8ZHaUkrWF69L_6m4WHuKj5wecebq9HxtIHyXeyeuAzlA0aXhdDjPoHA9L1zVG1O-4JwZmn-p9JdwAYdCAq4GOLq6ocMlok_nNSptDGdNvBBjkIO7eiI45lCnb0AOyyPXA_JCwRgGEFrFO9BDnW2vGqH-gs5-7q5STW0oUE2F_NbZcTMRtY8Zq6rfCKKtbGI2_uISAsaQAG6q-Ze22qahKprB0ndKnKqgRyaPJhQAdAqH4bdeEwd9rbY7slILLThWk0FlIofsU3AbIU383Z31-sdK1i6_irda65q1SlULrIWgp0uAssCZVrNrKzPja7VXea_DMSI55SlvrEyTLg_c65u3oQ1KXbDZ9-14UOIg4_sgA7BM1y5SR674RGAiYwgyFpg_hB6J8esG9JMMYjcPuSdgPq27Ps0nf04MlBsiv7FNoXoPCuXSzZzRJJTSrmFSe4gDp-zroI38wfH3jpEPcfZzJ1WoyDRecGrm3aHUQ02hZ1Mg8DLx9bRqiKo8rBXMeTIToKgqzbAWC3jUe32fvfJeaBnzghFGVn-c78W8GNKPyNR46XiRikuTmSrBWv_C9Dq0G2OBR-DQ-tn5ks-kO1HUXtrYWmZ-JIZgVHpkIZTex5mgzy34WRZYJYjjIj8_MdShuyhnA3c-z1AOv-rUsUl2DIf3UaxNGE8SuX0C1rP3IjqD8-AQ=w1372-h914-no?authuser=0);
+}
+
+.secaoPampamImagem:hover {
+  background-image: url(https://lh3.googleusercontent.com/NIFKwGLTBx5Elsgd_AknJMOQOffXS53ZIOrzdveh-5SyThRI0IWYRTCXyF3unuX0RYzbzKN-Obu3Sor04Duf_gwoQncVwA1CzRLpRrfJFKXvt-POxdeo_2jhn4p6w3kGvaiXE-LqqpQK8gRwS3nR_bfJbsllGknr_Nb-pgVQhkbpmd27DW9SBxHLWrwj2HJgbILELwryOdn8PRzxMz2Z4p7ouS3-4uOXuLyhv6zbC-tcl2RyWgYfWfzhScWfKWiN5vwqAwYw5XW-v3REpmMkc-X1qAyIYgs83U6H5AqY2nBA6fYXH0CfocRBCbLT_HnxUJGIRTOuCAvkKUQeQlTsj9-7oxA0Rb0vwySO9bv9l3nnQGhOdSBHKq5-qB-sY2omgO2vsMSoyDuwnEf5pN_1iztnThlNVfZRt-8ic0zAJGn4PnOzQo1DBFGkY9H40vA54KRuQfCjiI5IiPUSTytkKILUp_oUEfYEpl53ZX8uSQF3CfiETZcdjy1oWP2JqArMoj_SAK5g_jzdfxQFaVig3b0X4-2Kl4WJnIL1m3IpBFDi95elywJJ9mB8jIchTc_W9B_r2SBA7QZ1gyTyoZvvN5lZu0lJSIQLn6P2v-d2bSKlxZlIZCLAOWVm-1RCN2enzMfEwxt434NUR3zqScSX-LNbz-52N3LamSSiJ_3OVyflO94mIjukCaxsCZ96gg=w1372-h914-no?authuser=0);
+}
+
+/**************
+* SEÇÃO "BIJU"
+**************/
+
+#secaoBiju {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.secaoBijuConteudo {
+  display: flex;
+}
+
+.secaoBijuImagem {
+  background-image: url(https://lh3.googleusercontent.com/mIz5tftD2_abdjW9nRUlRHzR4qir3fKtgfk2VONRz__t9UzRBgm3GBjVm9eSQBPGy8G2xFha-kwFG8zogO-NsBcMY8PXfeommkFzLCaQ6rIwjmpX1SW9lZLc7r-YJaH7qJzvbxQkBiDX8xsrfmvYHseRjnYaNeihG1r0wEs4Ehk1o7W1wNMpBdPnkXIuzQK4XhFgkNaom_MXd-5P45eJjyZ2yN9RoYUjh5Ty9DrnQMbdvkIrRFHcCVArktlkuIvWlAoEB4YScfrLH_Lj4TxWa-y4CodwMqZL1p-G-U5-HHReAufiPK6rxZiNSiolYaI94M7wKhZQqviC-wqRflxqH13fsbGS6NUkCLLdRK_WA7Jk1IX2x5SMZoYiba7zXBGiBi-KnJqFIIKgIB4GFllbZ0LbQTP8lZwbaMbgF-KA7YvyOs4woC8TkOcZZSmKse5tZi-QOnlPpTZprYnhxU5EI2Wj1Jz__fj1q6iyAZJsoYPcC-PgDmbUGT_p5RYqRSvgVeLTbRmWAupK7QNRIlM208ODpYlGIraB1LXUO0U_1H7wVYCZEdbVjde1jtRkSiHuPCb9gYSHX9NKQA9RF8nN0uBCoEn5573LMIjwny5lO6kOddoj0Q-idLxAR9ALQp6CCxwBodwYc7piN_jDVIfiwUDqF3mJuP927opojvpakss86iRqvqgKvcvnpMSJgg=w1372-h914-no?authuser=0);
+}
+
+.secaoBijuImagem:hover {
+  background-image: url(https://lh3.googleusercontent.com/RFmk6IyinvuTi1O9b76vnektnTi2q49UOZWHQh0hqx4PG78v5W2rUdYvvs72QtPmLJzo1-RFV6Vb_4NElv_w7kabxg-vvtJkXIM5uK-nODU8T8wkHEktC7JeXOyiC4DrTFCGjFSrdrJRmNLC4h-Ubx7DuFsqlIoPhGpN0tIbgY2YSkjaJm3W14ycFOyB3WNKD8PiajYiUfwHdPSB0RLjDDRGKAM78M9NTci5IoDixyjBZoDRRIREURP-ceTj5UmMnup7jmIcIXtj32AbHIS1at_Oh4_uEH1vd_I6GIOtKNO07-_ET4RhHxSoTPbMl5_pS2Ja_Gq7Yine156VTHg86YQSPjHc_6VONQ3QL3PGA1AIY4lLzGallblVNAZtgdmjLNlYO2RvifkgCrAo7X5WgYLiSNF9aWrdyI9hYry0op5PHniCoAMCmNnRNBDpmRdN9iBcp_JI2KPDAhInTmUwwfpPKxNp6PBCrVXMlkJNEhaC92DEHiuND-841e-uFC-hpQoNatfyjYX74eNbCdbeMG1Kr35b4e_SikE-eBl5fdbrYgb3V3Rr2PO0xRisAcipy4VZ_vRHK0BPJ4XomXhhFiMpuoD54ZgNhmMfhRuRwMDpEwyVT66x-3zVlADA9wrvek1QnnzeU3awJ0Oz0K3j1w03r-MY7IOXlLrLAS-CLkxqoOqmkqnYvE35ERcmpQ=w1372-h914-no?authuser=0);
+}
+
+/**************
+* FOOTER
+**************/
+
+.footer {
+  height: 160px;
+  color: grey;
+  font-size: 0.8rem;
+  background-color: #cec7c4;
+  margin: 0;
+  padding: 30px 0 20px 100px;
+}
+
+.footerCoracao {
+  font-size: 0.5rem;
+}
+
+/**************
+* RESPONSIVIDADE
+**************/
+
+@media only screen and (max-width: 940px) {
+  body {
+    font-size: 0.9rem;
+  }
+
+  h2 {
+    font-size: 3.5rem;
+  }
+
+  .dadosGato p {
+    font-size: 0.6rem;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+    letter-spacing: 2px;
+    margin: 20px 0 10px 0;
+  }
+
+  /**************
+  * VÁLIDO PARA TODAS AS SEÇÕES
+  **************/
+
+  .conteudoTexto {
+    height: 75%;
+    width: 90%;
+    margin: 0 40px 30px 30px;
+  }
+
+  .conteudoImagem {
+    width: 100%;
+    height: 250px;
+    margin: 0;
+  }
+
+  .dadosGato {
+    padding: 0 0 5px 0;
+  }
+
+  .dadosGato p {
+    font-size: 0.6rem;
+  }
+
+  /* #sobre,
+  #secaoMama,
+  #secaoPampam,
+  #secaoBiju {
+    width: 100vw;
+    height: 100%;
+  } */
+
+  .sobreConteudo,
+  .secaoMamaConteudo,
+  .secaoPampamConteudo,
+  .secaoBijuConteudo {
+    display: flex;
+    flex-flow: column;
+  }
+}
